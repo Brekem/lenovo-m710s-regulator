@@ -1,6 +1,6 @@
-# Lenovo M710t Regulator (Modo Gaming)
+# Lenovo M710s Regulator (Modo Gaming)
 
-Regulador térmico y modos de energía para la **Lenovo ThinkCentre M710t** (placa Lenovo 3102, chip ITE IT8628E)
+Regulador térmico y modos de energía para la **Lenovo ThinkCentre M710s** (tipo de máquina 10M7; placa Lenovo 3102, chip ITE IT8628E)
 con **Intel Core i7-7700**, pensado para jugar (por ejemplo ARC Raiders) sin que el CPU pase de **85 °C**.
 
 > Proyecto personal, **no oficial y sin relación con Lenovo**. Úsalo bajo tu propio riesgo.
