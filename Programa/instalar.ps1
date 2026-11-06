@@ -128,7 +128,7 @@ try {
     $uninst = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\ModoGaming'
     New-Item -Path $uninst -Force | Out-Null
     Set-ItemProperty $uninst DisplayName 'Modo Gaming'
-    Set-ItemProperty $uninst DisplayVersion '1.3'
+    Set-ItemProperty $uninst DisplayVersion '1.3.1'
     Set-ItemProperty $uninst Publisher 'ibrek'
     Set-ItemProperty $uninst DisplayIcon $exe
     Set-ItemProperty $uninst InstallLocation $destino

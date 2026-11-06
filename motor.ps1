@@ -158,7 +158,7 @@ function Poner-AhorroWindows([bool]$encender) {
             Remove-Item $DIRECTIVA_AHORRO -ErrorAction SilentlyContinue
         }
     }
-    gpupdate /target:computer /force | Out-Null   # aplicar la directiva al momento
+    gpupdate /target:computer /force /wait:0 | Out-Null   # aplicar la directiva sin esperar (puede tardar minutos y dejar el cambio de modo a medias)
 }
 
 function Leer-ModoEnergia { $g = [Guid]::Empty; [void][ModoGaming.Energia]::PowerGetUserConfiguredACPowerMode([ref]$g); $g.ToString() }
